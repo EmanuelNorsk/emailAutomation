@@ -1,0 +1,14 @@
+{
+    "AI/gaming": "Anything gaming related that does not fit into the other categories",
+    "AI/news": "Newsletters, updates, and announcements from companies and organizations",
+    "AI/work": "Work-related emails, including communications with colleagues, clients, and project updates",
+    "AI/social": "Emails from social media platforms, online communities, and forums",
+    "AI/payments": "Invoices, receipts, and payment confirmations from online purchases and subscriptions",
+    "AI/promotions": "Promotional emails, discounts, and offers from retailers and service providers",
+    "AI/personal": "Personal emails from friends, family, and acquaintances",
+    "AI/other": "Any emails that do not fit into the above categories",
+    "AI/spam": "Unwanted or unsolicited emails, often containing advertisements or scams",
+    "AI/paychecks": "Emails related to paychecks, salary, and financial transactions",
+    "AI/travel": "Emails related to travel bookings, itineraries, and confirmations",
+    "AI/urgent": "Emails that require immediate attention or action, such as urgent requests or critical updates"
+}
