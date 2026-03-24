@@ -84,7 +84,23 @@ Example:
 npx tsx script.ts
 ```
 
-On first run, Google OAuth will ask you to sign in and grant Gmail access. The app will save local tokens for future runs.
+On first run, Google OAuth will ask you to sign in and grant Gmail access.
+
+After you approve access, Google will redirect you to a URL that looks something like this:
+
+```text
+http://localhost/?code=...
+```
+
+You may see a browser error page after the redirect. That is fine for this local prototype.
+
+What matters is the URL in the address bar:
+
+1. Copy the value of the `code` query parameter from the URL.
+2. Paste that code back into the terminal when the app asks for it.
+3. The app will exchange that code for tokens and save them locally in `tokens.json`.
+
+After that first login flow, future runs should reuse the saved token file.
 
 ## Important Files
 
